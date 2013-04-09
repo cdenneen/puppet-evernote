@@ -5,7 +5,7 @@
 #   include evernote
 class evernote {
   package { 'Evernote':
-    provider => 'appdmg',
+    provider => 'appdmg_eula',
     source   => 'http://cdn1.evernote.com/mac/release/Evernote_400995.dmg'
   }
 }
