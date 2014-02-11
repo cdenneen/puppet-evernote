@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'evernote' do
   it do
-    should contain_package('Evernote').with({
+    should contain_package('Evernote_402491').with({
       :provider => 'appdmg_eula',
       :source   => 'http://cdn1.evernote.com/mac/release/Evernote_402491.dmg',
     })
