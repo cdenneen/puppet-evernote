@@ -6,6 +6,6 @@
 class evernote {
   package { 'Evernote':
     provider => 'appdmg_eula',
-    source   => 'http://cdn1.evernote.com/mac/release/Evernote_400995.dmg'
+    source   => 'http://cdn1.evernote.com/mac/release/Evernote_402491.dmg'
   }
 }
